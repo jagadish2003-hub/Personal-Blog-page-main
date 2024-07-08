@@ -243,7 +243,7 @@ body.nav-active { overflow: hidden; }
   background-image: var(--gradient-1); /* Use the correct syntax for setting the background image */
   display: inline; /* Changed inline-block to inline */
   color: transparent; /* Set the text color to transparent */
-  -webkit-background-clip: text; /* Set the background clip to text */
+  background-clip: text; /* Set the background clip to text */
 }
 
 
